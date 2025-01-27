@@ -1,15 +1,18 @@
 <?php
 include "./include/header.php";
 ?>
+
+<!-- banner start  -->
 <div class="banner">
     <div class="container">
+
         <div class="banner-row">
             <div class="banner-content">
                 <h1>
                     <span>Building</span> Dreams,<br>Creating <span>Futures</span>
                 </h1>
-                <p>
-                    Delivery exception construction services with precision<br> and dedication, ensuring every project stands the test of time.
+                <p class="common-section-des">
+                    Delivery exception construction services with precision and dedication, ensuring every project stands the test of time.
                 </p>
                 <div class="button">
                     <div class="btn-1">
@@ -37,7 +40,9 @@ include "./include/header.php";
     </div>
 </div>
 
+<!-- banner end  -->
 
+<!-- choose us start  -->
 <div class="total-info">
     <div class="container">
 
@@ -79,7 +84,7 @@ include "./include/header.php";
 
         <div class="paragraph">
             <div class="info-page">
-                <h1>
+                <h1 class="common-section-heading">
                     Why Choose Us?
                 </h1>
                 <p>
@@ -92,68 +97,68 @@ include "./include/header.php";
 
             <div class="info-boxes">
                 <div class="single-box">
-                    
-                        <h1>
-                            .1
-                        </h1>
-                        
-                    
+
+                    <h1>
+                        .1
+                    </h1>
+
+
                     <div class="head-page">
                         <h3>
                             Quality Craftsmanship
                         </h3>
                         <p>
 
-                        We Pride ourselves on our meticlous attention to detail and dedication to superior craftsmanship.
+                            We Pride ourselves on our meticlous attention to detail and dedication to superior craftsmanship.
                         </p>
 
                     </div>
-                   
-                   
+
+
 
 
                 </div>
                 <div class="single-box">
-                    
-                        <h1>
-                            .2
-                        </h1>
-                        
-                    
+
+                    <h1>
+                        .2
+                    </h1>
+
+
                     <div class="head-page">
                         <h3>
                             Customer-centric Approachs
                         </h3>
                         <p>
 
-                        Your satisfaction is our top priority. we work closely with you throughout the entire construction.
+                            Your satisfaction is our top priority. we work closely with you throughout the entire construction.
                         </p>
 
                     </div>
-                   
-                   
+
+
 
 
                 </div>
                 <div class="single-box">
-                    
-                        <h1>
-                            .3
-                        </h1>
-                        
-                    
+
+                    <h1>
+                        .3
+                    </h1>
+
+
                     <div class="head-page">
                         <h3>
                             Rellability and integrity
                         </h3>
                         <p>
 
-                        From concept to completion, we handle every aspect of your project with a full range of services.
+                            From concept to completion, we handle every aspect of your project with a full range of services.
                         </p>
 
                     </div>
-                   
-                   
+
+
 
 
                 </div>
@@ -163,7 +168,9 @@ include "./include/header.php";
     </div>
 
 </div>
+<!-- choose us end  -->
 
+<!-- our services start  -->
 <div class="our-services">
     <div class="container">
         <div class="services-title">
@@ -172,10 +179,10 @@ include "./include/header.php";
                     Get a Quote For your project
                 </h1>
                 <div class="services-tag">
-                <a href="">free quote</a>
+                    <a href="">free quote</a>
                 </div>
-                
-                
+
+
 
             </div>
 
@@ -185,77 +192,149 @@ include "./include/header.php";
             <div class="services-page">
                 <div class="box">
                     <div class="box-icon">
-                    <i class="fa-solid fa-user-nurse"></i>
+                        <i class="fa-solid fa-user-nurse"></i>
                     </div>
-                    <h2>
+                    <h2 class="common-tittle">
                         service 1
                     </h2>
-                    
-                    
+
+
                 </div>
                 <div class="box">
                     <div class="box-icon">
-                    <i class="fa-solid fa-user-nurse"></i>
+                        <i class="fa-solid fa-user-nurse"></i>
                     </div>
-                    <h2>
+                    <h2 class="common-tittle">
                         service 2
                     </h2>
-                    
-                    
+
+
                 </div>
                 <div class="box">
                     <div class="box-icon">
-                    <i class="fa-solid fa-user-nurse"></i>
+                        <i class="fa-solid fa-user-nurse"></i>
                     </div>
-                    <h2>
+                    <h2 class="common-tittle">
                         service 3
                     </h2>
-                    
-                    
+
+
                 </div>
                 <div class="box">
                     <div class="box-icon">
-                    <i class="fa-solid fa-user-nurse"></i>
+                        <i class="fa-solid fa-user-nurse"></i>
                     </div>
-                    <h2>
+                    <h2 class="common-tittle">
                         service 4
                     </h2>
-                    
-                    
+
+
                 </div>
                 <div class="box">
                     <div class="box-icon">
-                    <i class="fa-solid fa-user-nurse"></i>
+                        <i class="fa-solid fa-user-nurse"></i>
+                    </div>
+                    <h2 class="common-tittle">
+                        service 5
+                    </h2>
+
+
+                </div>
+                <div class="box">
+                    <div class="box-icon">
+                        <i class="fa-solid fa-user-nurse"></i>
                     </div>
                     <h2>
                         service 5
                     </h2>
-                    
-                    
+
+
                 </div>
-                <div class="box">
-                    <div class="box-icon">
-                    <i class="fa-solid fa-user-nurse"></i>
-                    </div>
-                    <h2>
-                        service 5
-                    </h2>
-                    
-                    
+
+
+
+
+            </div>
+            <div class="services-section">
+                <div class="service-info">
+                    <h1 class="common-section-heading">
+                        Our Services
+
+                    </h1>
+
+
                 </div>
-                
-                
+                <p class="common-section-des">
+                    At Bastu Homes, we specialize in turning your dreams into reality. Our comprehensive range of services includes custom home building, remodeling, and renovation. With a focus on quality craftsmanship and innovative design, we ensure every project is tailored to meet your unique needs and exceeds your expectations.
+
+                </p>
+
 
             </div>
 
         </div>
 
 
+
+
     </div>
 
 </div>
+<!-- our services end  -->
+<!-- our project star -->
 
 
+<div class="our-project">
+    <div class="container">
+        <div class="project-info">
+            <div class="project-heading">
+                <h1 class="common-section-heading">
+                    Our Project
+
+                </h1>
+                <p class="common-section-des">
+                    Bastu Homes delivers exceptional custom homes, renovations, and commercial builds. Each project reflects our commitment to quality and innovation, transforming visions into beautiful, lasting spaces. Explore our portfolio to see our dedication to excellence.
+
+                </p>
+
+
+
+            </div>
+
+            <div class="project-img">
+
+                <div class="image">
+                    <img src="./img/img3.jpeg" alt="">
+                </div>
+
+
+                <div class="project-row">
+                    <h3 class="row-title">
+                        Title
+
+                    </h3>
+                    <p class="common-section-des">
+                        Delivering exceptional construction services with precision and dedication
+                        Loren Ipsum Each project reflects our commitment to quality and innova...
+
+
+                    </p>
+                    
+                <p class="common-section-des">
+                    see more...
+                </p>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- our project end  -->
 
 
 

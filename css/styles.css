@@ -11,17 +11,13 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    width: 90%;
-    
-    margin: auto;
-    
-                                                                                                            
-}
+/* banner start  */
 header{
     z-index: 999;
     margin-top: 20px;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    
     
 }
 .logo{
@@ -75,63 +71,70 @@ header{
 .banner{
     
     background-image:url("../img/img.png");
-    height: 100vh;
+    
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 50px;
+    padding-top: 150px;
     
-    position: relative;
-    
-    
+    position: relative; 
+}
 
+.banner:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 253, 249) ;
+    z-index: -1;
     
 }
 .banner-content{
-    width: 40%;
+    width: 51%;
+    
 }
 .banner h1 {
     font-family: "Roboto";
-    padding-top: 60px;
+    font-size: 50px;
+    padding-bottom: 20px;
+    line-height: 1.5;
     
     
 }
 .banner p{
     
     font-family: "Roboto";
+    margin-top: 20px;
 }
 
 .banner span{
     color:  rgb(151, 225, 39) ;
-}
-
-.banner p{
-    margin-top: 20px;
-}
-.button {
     
-    margin-top: 50px;
-
-    
-
 }
+
+
+
 .button {
     display: flex;
     padding-top: 40px;
-    
+    margin-top: 50px;
+    gap: 20px;
+
     
 }
 .btn-1 a{
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
     margin-right: 20px;
     border: 1px solid  rgb(151, 233, 28);
-    border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 35px;
     background-color: rgb(151, 233, 28);
     color: white;
     font-family: "Roboto";
     cursor: pointer;
     transition: 0.3S ease-in;
-    font-size: 30px;
+    font-size: 25px;
 }
 .btn-1 a:hover{
     
@@ -158,16 +161,16 @@ header{
 
 .btn-2 a{
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 10px 20px;
     margin-right: 20px;
     border: 1px solid  rgb(129, 122, 122);
-    border-top-right-radius: 20px;
+    border-top-right-radius: 35px;
     background-color: rgb(129, 122, 122);
     color: white;
     font-family: "Roboto";
     cursor: pointer;
     transition: 0.3S ease-in;
-    font-size: 30px;
+    font-size: 25px;
     
 }
 
@@ -186,15 +189,16 @@ header{
     object-fit: cover;
     
     border-bottom-left-radius: 200px;
-    margin-top: -100px;
+    margin-top: -150px;
     z-index: -1;
 }
 .banner-image img:hover{
-    margin-top: -120px;
+    margin-top: -170px;
 }
 
+/* banner end  */
 
-
+/* choose us start  */
 .total-number{
     width: 100%;
     display: flex;
@@ -242,7 +246,7 @@ header{
 .paragraph{
     display: flex;
     justify-content: space-between;
-     
+     margin-top: 90px;
 }
 
 .info-page{
@@ -287,35 +291,65 @@ header{
 .single-box h3{
     padding-bottom: 8px;
 }
+/* choose us end  */
 
+/* our services start  */
 .our-services{
     background-image:url("../img/img.png");
     width: 100%;
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
-.services-title{
+.our-services:after{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: white;
+z-index: -1;
+}
 
+.services-title{
+    width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 10;
+    position: relative;
+
+}
+
+.services-head{
+    
+    border-radius: 100px;
+    padding: 10px 60px;
+    border-bottom: 1px solid white ;
    
+    background-color: white;
+    margin-top: -60px;
+
+
 }
-.services-head h1{
-    font-family: "Roboto" ;
-    font-weight: 400;
+
+.services-tag{
+    padding: 0px 130px;
 }
+
 .services-tag a{
     display: flex;
     justify-content: center;
     margin-top: 10px;
     text-decoration: none;
-    background-color: rgb(151, 247, 8) ;
-    border: 1px solid  rgb(151, 247, 8);
-    margin: 5px 150px;
-    padding: 8px 20px;
-    border-radius: 10px;
-    color: white;
+    background-color: #85BC03 ;
+    border: 1px  solid #85BC03;
+    padding: 15px;
+    border-radius: 20px;
+     color: white;
+    font-family:"Roboto" ;
+
+    
     
 }
 
@@ -332,30 +366,83 @@ header{
 
 .services-nmb{
     padding: 200px 0px;
+    display: flex;
+    
+}
+
+.services-section{
+    width: 30%;
+    padding-left: 30px;
 }
 .box{
     background-color: brown;
     display: flex;
     width:calc(33.33% - 50px);
     align-items: center; 
-    border: 2px solid black;
+    background-color: white;
+    border-bottom-left-radius: 40px;
     padding: 20px 5px;
-    color: white;
+    border-bottom: 3px solid #85BC03;
+
+
+    
+    
+    
+    
     
 }
 .box-icon{
     margin-left: 10px;
+    padding: 10px ;
+    color:  #85BC03;
     
 }
 
+/* our services end  */
+
+/* project start  */
 
 
+.our-project{
+    background-color: rgb(246, 255, 255);
+    padding-bottom: 120px;
 
+}
+.project-info{
+    display: flex;
+    
+    
+}
 
+.project-heading{
+    width: 40%;
+    padding-top: 80px;
+}
 
+.project-img{
+    width: 22%;
+    padding-left: 30%;
+    
+}
+.image{
+    padding-top: 50px;
+}
+.image img{
+    width: 100%;
+    
+}
 
+.project-row{
+    
+    padding-left: 20px ;
+    
+    
+    
+    
+    
 
-
+}
+/* project end  */
 
 
 

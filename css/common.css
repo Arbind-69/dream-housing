@@ -1,0 +1,26 @@
+.common-section-heading{
+    margin-bottom: 20px;
+    color:  rgb(123, 189, 25);
+    font-family: "Roboto Flex";
+    font-size: 40px;
+
+}
+
+.common-section-des{
+    font-family: "Roboto";
+    margin-top: 20px;
+}
+
+.common-tittle{
+    padding-left: 10px;
+    color: black;
+
+}
+
+.container{
+    width: 90%;
+    
+    margin: auto;
+                                         
+}
+
